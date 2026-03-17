@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Email Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>AI Email Assistant</h1>
+
+  <select id="type">
+    <option value="generate">Generate</option>
+    <option value="summarize">Summarize</option>
+    <option value="reply">Reply</option>
+    <option value="improve">Improve</option>
+  </select>
+
+  <textarea id="content" placeholder="Enter your email or topic..."></textarea>
+
+  <button onclick="sendRequest()">Submit</button>
+
+  <h3>Result:</h3>
+  <pre id="result"></pre>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
